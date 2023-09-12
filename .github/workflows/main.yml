@@ -1,4 +1,4 @@
-name: Deploy to ECR
+name: Push to ECR
 
 on:
  
@@ -9,7 +9,7 @@ jobs:
   
   build:
     
-    name: Build Image
+    name: Push Image
     runs-on: ubuntu-latest
 
    
