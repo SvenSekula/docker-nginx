@@ -30,7 +30,7 @@ RUN set -x \
     apt-get remove --purge --auto-remove -y gnupg1 && rm -rf /var/lib/apt/lists/* \
     && dpkgArch="$(dpkg --print-architecture)" \
     && nginxPackages="%%PACKAGES%%
-    " \
+     \
     && case "$dpkgArch" in \
         amd64|arm64) \
 # arches officialy built by upstream
