@@ -118,11 +118,13 @@ COPY ./Dokumente.webp /usr/share/nginx/html/
 COPY ./HomepageBlau.html /usr/share/nginx/html/
 COPY ./HomepageGruen.html /usr/share/nginx/html/
 COPY ./Medaille.tif /usr/share/nginx/html/
-COPY ./einstellung.html /usr/share/nginx/html/
+COPY ./einstellungen.html /usr/share/nginx/html/
 COPY ./favicon.ico /usr/share/nginx/html/
 COPY ./styleblau.css /usr/share/nginx/html/
 COPY ./stylegruen.css /usr/share/nginx/html/
 COPY ./stylestellungen.css /usr/share/nginx/html/
+COPY ./Bilddateien /usr/share/nginx/html/
+COPY ./Lehrplan /usr/share/nginx/html/
 
 EXPOSE 80
 
