@@ -3,7 +3,7 @@
 #
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
-FROM debian:bullseye-slim
+FROM --platform=linux/amd64 node:11.15
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
