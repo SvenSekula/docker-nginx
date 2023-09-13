@@ -1,0 +1,273 @@
+
+html {
+	background-color: #eaeded;
+}
+
+body {
+	width: 2000px; 
+	max-width: 95%;
+	margin: auto; 
+}
+
+h1 { 
+	color: white;
+	background-color:#D7003C;
+	text-align: center;
+	width: 300px;
+	font-size: 2.5em;
+	font-family: Calibri;
+	border-style: solid;
+	border-width: 5px; 
+	border-color: black; 
+	box-sizing: border-box;
+	padding-left:10px;
+}	
+
+iframe { 
+	border-style: inset;
+	border-width: 7px; 
+	border-color: black; 
+	height: 1141px; 
+	width: 80%;	
+	float: right;
+	box-sizing: border-box;
+} 
+
+button {
+	background-color: #CB0037; 
+	border-color:#030000;
+	color:#FFFFFF; 
+	padding: 7px;
+	margin-left: 15px; 
+	text-align: center;
+	cursor:pointer;
+	vertical-align:middle;
+	height: 30px;
+	width: 80px;
+}
+
+li { 
+	padding-right: 10px;
+	font-size: 1.5em;
+	font-family: Calibri; 
+}
+
+ul {
+	border-width: 5px; 
+	border-color: black; 
+	border-radius: 10px;
+}
+
+p {
+	font-size: 1.5em;
+} 
+
+div { 
+	margin-top: 30px;
+	box-sizing: border-box;
+	width: 300px;
+	border-style: solid;
+	border-width: 5px; 
+	border-color: black; 
+	font-size: 10px;
+}
+
+h2 {
+	color: white;
+	background-color: #CB0037;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: Calibri;
+	border-style: solid;
+	border-width: 5px; 
+	border-color: black; 
+	border-radius: 10px; 
+	box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none; 
+	
+} 
+
+nav {
+	color: white;
+	background-color: #CB0037;
+	text-align: center;
+	margin-bottom: 30px; 
+	margin-top: 30px;
+	padding: 4px;
+	font-size: 2.5em;
+	font-family: Calibri;
+	border-style: solid;
+	border-width: 5px; 
+	border-color: black; 
+	border-bottom-width:4px;
+}
+
+.summary {
+	font-size: 12px;
+}
+
+.navi {	
+	text-decoration: none; 
+	color: white; 
+	/*border-style: solid;*/
+	border-color: black;
+	margin-top: 50px;
+	padding: 10px;
+	
+	padding-right:20px;
+} 
+
+.time {
+	float:right; 
+	padding-right: 40px;
+}
+
+.namelogo {
+	float: left; 
+	padding-left: 40px; 
+	font-family: Verdana; 
+	color: white;
+}
+
+/*
+.footer {
+	color: white; 
+	padding-left: 30px;
+	vertical-align:middle;
+}
+*/
+
+.dropdown {
+  display: inline-block; 
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eaeded;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#links{
+width:40px;
+height:40px;
+margin:auto;
+vertical-align:middle;
+}
+#dokumente{
+float: left;
+width:37px;
+height:37px;
+vertical-align:middle;
+margin-right: 10px;
+margin-left: 5px;
+}	
+#anleitung{
+float: left;
+width:37px;
+height:37px;
+vertical-align:middle;
+margin-right: 10px;
+margin-left: 5px;
+}
+#einstellungen{
+width:30px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:3px;
+border-radius:20px;
+}
+#fresh{
+width:30px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:3px;
+border-radius:20px;
+}
+#e1ns{
+width:30px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:2px;
+border-radius:30px;
+}
+#pdf{
+width:20px;
+height:20px;
+vertical-align:middle;
+}
+#ansicht{
+width:15px;
+height:15px;
+vertical-align:middle;
+padding-right:5px;
+}
+#bearbeiten{
+width:15px;
+height:15px;
+vertical-align:middle;
+padding-right:5px;
+}	
+#twitter{
+width:30px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:3px;
+border-radius:10px;
+}	
+#youtube{
+width:40px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:3px;
+border-radius:10px;
+
+}	
+#facebook{
+width:30px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:3px;
+border-radius:20px;
+}	
+#linked{
+width:30px;
+height:30px;
+vertical-align:middle;
+border-color:white;
+border-style:solid;
+border-width:3px;
+border-radius:10px;
+}	
+#klappbox {
+	font-family: Calibri;
+    color:white;
+	font-size:30px;
+	background-color:#D7003C;
+	border-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
