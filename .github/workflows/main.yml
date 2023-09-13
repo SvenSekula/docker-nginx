@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: peakavenue
   ECS_SERVICE: NginxService07
   ECS_CLUSTER: Nginx
-  ECS_TASK_DEFINITION: .workflows/task_definition.json
+  ECS_TASK_DEFINITION: .github/workflows/task_definition.json
   CONTAINER_NAME: NginxMaster     
 
 permissions:
