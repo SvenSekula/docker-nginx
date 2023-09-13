@@ -115,8 +115,8 @@ ENTRYPOINT ["/docker-entrypoint.sh"]
 COPY ./index.html /usr/share/nginx/html/
 COPY ./style.css /usr/share/nginx/html/
 COPY ./Dokumente.webp /usr/share/nginx/html/
-COPY ./Homepage Blau.html /usr/share/nginx/html/
-COPY ./Homepage Grün.html /usr/share/nginx/html/
+COPY ./HomepageBlau.html /usr/share/nginx/html/
+COPY ./HomepageGrün.html /usr/share/nginx/html/
 COPY ./Medaille.tif /usr/share/nginx/html/
 COPY ./einstellung.html /usr/share/nginx/html/
 COPY ./favicon.ico /usr/share/nginx/html/
