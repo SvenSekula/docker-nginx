@@ -123,8 +123,8 @@ COPY ./favicon.ico /usr/share/nginx/html/
 COPY ./styleblau.css /usr/share/nginx/html/
 COPY ./stylegruen.css /usr/share/nginx/html/
 COPY ./stylestellungen.css /usr/share/nginx/html/
-COPY Bilddateien /usr/share/nginx/html/
-COPY Lehrplan /usr/share/nginx/html/
+COPY Bilddateien /usr/share/nginx/html/Bilddateien
+COPY Lehrplan /usr/share/nginx/html/Lehrplan
 
 EXPOSE 80
 
