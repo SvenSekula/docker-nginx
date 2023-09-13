@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>DAT3I</title>
+	<link href="styleblau.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+		<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+		</script>
+		
+		<script>
+			function startTime() {
+			var today = new Date();
+			var h = today.getHours();
+			var m = today.getMinutes();
+			var s = today.getSeconds();
+			m = checkTime(m);
+			s = checkTime(s);
+			document.getElementById('txt').innerHTML =
+			h + ":" + m + ":" + s;
+			var t = setTimeout(startTime, 500);
+			}
+			function checkTime(i) {
+			if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			return i;
+			}
+		</script>
+<body onload="startTime()"> 
+
+	<nav>
+		<a class="namelogo" href="Homepage.html">D<img id="links" src="Bilddateien\PLA.png">T3I</a>
+		<a class="navi" href="https://intern-e1ns.plato.de/e1ns/documents/#cmd=CMD_Documents" target="_blank"><img id="e1ns" src="Bilddateien\e1ns.png">e1ns Inhouse</a>
+		<a class="navi" href="https://support.plato.de/a/dashboard/default" target="_blank"><img id="fresh" src="Bilddateien\fresh.png">Freshdesk</a>
+		<a class="navi" href="Einstellungen.html" target="iframe_Ansicht"><img id="einstellungen" src="Bilddateien\einstellungen.png">Einstellungen</a> 
+		<a class="time" id="txt"></a> 
+		<a class="date" id="datetime"></a>
+	</nav>	
+		<iframe name="iframe_Ansicht" src="https://www.bvb.de/">  </iframe> 
+		
+		<div>
+			<details>	
+				<summary id="klappbox"> <img id="dokumente" src="Bilddateien\dokumente.png"> Dokumente </summary>
+					<ul> 
+						<li>Berater-VMs</li>
+							<a href="Berater-VMs\Seite.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Berater-VMs\Berater-VMs.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Hardwareliste<br></li>		
+							<a href="Hardwareliste\Seite.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Hardwareliste\Hardwareliste.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Schulungslaptops<br></li>		
+							<a href="Schulungslaptops\Schulungslaptops.html" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Schulungslaptops\Schulungslaptops.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>IP Adressen und Port-Anschlüsse</li>
+							<a href="Ip Adressen und Port-Anschlüsse\IP Adressen und Port-Anschlüsse.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Ip Adressen und Port-Anschlüsse\IP Adressen und Port-Anschlüsse.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Liste der Externen Berater</li>
+							<a href="Liste der Externen Berater\Liste der Externen Berater 2020.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Liste der Externen Berater\Liste der Externen Berater 2020.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Neue Mitarbeiter Hardware</li>
+							<a href="Neue Mitarbeiter\NeueMitarbeiter.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Neue Mitarbeiter\NeueMitarbeiter.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Neuinstallations Checkliste</li>
+							<a href="Neuinstallations Checklist\Seite.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Neuinstallations Checklist\Checklist.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Lehrplan des RBB</li>
+							<a href="Lehrplan\Lehrplan.htm" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a><a href="Lehrplan\Lehrplan.xlsx"><button><img id="ansicht" src="Bilddateien\bearbeiten.png">Edit</button></a>
+						<li>Termine des RBB</li>
+							<a href="http://do.nw.schule.de/rbb/fileadmin/user_upload/sonstiges/Termine/Termine1920.pdf" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a>
+						<li>Telefonliste Plato AG</li>
+							<a href="Telefonliste\Telefonliste.pdf" target="iframe_Ansicht"><button><img id="ansicht" src="Bilddateien\ansicht.png">View</button></a> 
+					</ul>
+			</details>
+		</div>
+		
+		<div>
+		<details>
+			<summary id="klappbox"> <img id="anleitung" src="Bilddateien\anleitung.png"> Anleitungen</summary>
+		<ul>
+			<li> Notes Lesezeichen Datenbank extrahieren </li>
+				<a href="Anleitungen\Anleitung Notes Lesezeichen Datenbank exportieren.pdf" target="iframe_Ansicht"><button><img id="pdf" src="Bilddateien\pdf.png">Open</button></a>
+			<li> Anleitung Notes.ID Datei erstellen </li>
+				<a href="Anleitungen\Anleitung Notes.ID erstellen 1.0.0.pdf" target="iframe_Ansicht"><button><img id="pdf" src="Bilddateien\pdf.png">Open</button></a>
+			<li> DCOM Benutzer hinzufügen </li>
+				<a href="Anleitungen\DCOM Benutzer hinzufügen.pdf" target="iframe_Ansicht"><button><img id="pdf" src="Bilddateien\pdf.png">Open</button></a>
+			<li> e1ns Lizenzdatei .lic erstellen </li>
+				<a href="Anleitungen\lic Datei mit dem LicCreator erstellen.pdf" target="iframe_Ansicht"><button><img id="pdf" src="Bilddateien\pdf.png">Open</button></a>
+			<li> Update für die Berater Boxen </li>
+				<a href="Anleitungen\VB Update Leitfaden.pdf" target="iframe_Ansicht"><button><img id="pdf" src="Bilddateien\pdf.png">Open</button></a>
+		</ul>
+		</details>
+		</div>	
+		
+		<div>
+				<details>
+			<summary id="klappbox"> <img id="anleitung" src="Bilddateien\hae.png"> Random Stuff</summary>
+		<ul>
+			<li> Kicktipp </li>
+				<a href="https://www.kicktipp.de/plato-nerds-do/" target="_blank"><button><img id="pdf" src="Bilddateien\ball.png">Open</button></a>
+			<li> KickerManager </li>
+				<a href="https://manager.kicker.de/interactive/bundesliga/managerliga/spieltagswertung/spieltag/19/manliga/8773" target="iframe_Ansicht"><button><img id="pdf" src="Bilddateien\ball.png">Open</button></a>
+		</ul>
+		</details>
+		</div>
+<!--		
+		<nav>
+			<a class="footer" href="https://www.youtube.com/user/PLATOAG"><img id="youtube" src="Bilddateien\youtube.png"> YouTube </a>
+			<a class="footer" href="https://www.facebook.com/plato.ag"><img id="facebook" src="Bilddateien\facebook.png"> Facebook </a>
+			<a class="footer" href="https://twitter.com/plato_ag"><img id="twitter" src="Bilddateien\twitter.png"> Twitter </a>
+			<a class="footer" href="https://www.linkedin.com/company/plato-ag"><img id="linked" src="Bilddateien\linked.png"> LinkedIn </a>
+		</nav>	
+-->
+
+</body>
+	
+</html>
